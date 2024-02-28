@@ -460,6 +460,9 @@ img {
 .footer-list:last-child {
     margin-bottom: 0;
 }
+.connect-block {
+    margin-right: 93px;
+}
 .connect-text {
     margin-bottom: 20px;
     font: Roboto;
@@ -494,6 +497,52 @@ img {
 }
 .connect-icon {
     fill: currentColor;
+}
+.form-header {
+    display: block;
+    margin-bottom: 20px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1,1;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.form-line {
+    display: flex;
+}
+.form-field {
+    padding-left: 16px;
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.connect-fiedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    text-align: center;
+
+}
+.form-icon {
+    fill: #FFFFFF;
+    margin-left: 10px;
 }
 .filtr-section {
     padding-top: 94px;
