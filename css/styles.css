@@ -299,6 +299,7 @@ img {
 }
 .check-group {
     display: flex;
+    padding-left: 14px;
     margin-bottom: 30px;
     align-items: center;
 }
